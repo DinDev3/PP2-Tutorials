@@ -1,0 +1,8 @@
+1.BEGIN
+2.PROMPT weight 
+3.GET weight
+4.PROMPT height 
+5.GET height
+6.bMI = weight/(height*height);
+7.DISPLAY "Your BMI IS: "+bMI
+  End

@@ -1,0 +1,9 @@
+1.BEGIN
+2.SET area = 0, circumference = 0, counter = 0
+3.PROMPT radius
+4.GET radius
+5.area=Math.pi()*(radius*radius)
+6.circumference=2*pi*radius
+7.DISPLAY "Circumference="+circumference
+8.DISPLAY "Area="+area
+  END             
