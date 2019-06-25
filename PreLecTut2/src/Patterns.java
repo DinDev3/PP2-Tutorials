@@ -17,8 +17,15 @@ public class Patterns {
         System.out.print("a. How many lines? ");
         turns = input.nextInt();
 
+        for (int i = turns; i > 0; i--) {
+            for (int x = 0; x < turns-i; x++) {
+                System.out.print(" ");
+            }
 
-
+            for (int y = 0; y < (i * 2) - 1; y++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }
